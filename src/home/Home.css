@@ -24,20 +24,7 @@
 .list-card-item svg {
   margin-right: 10px;
 }
-.card {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.card-action-area {
-  flex: 1;
-}
-.card-content {
-  display: flex;
-  justify-content: center;
-}
-.card-footer {
-  height: 40px;
+.list-footer {
   widows: 100%;
   display: flex;
   justify-content: space-between;
@@ -45,4 +32,10 @@
   font-size: 12px;
   font-weight: bolder;
   color: #757575;
+}
+.date {
+  float: left;
+}
+.price {
+  padding-left: 50px;
 }
