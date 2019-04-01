@@ -6,6 +6,9 @@ import Header from "./common/Header";
 import Home from "./home/index";
 
 const theme = createMuiTheme({
+  typography: {
+    useNextVariants: true
+  },
   palette: {
     primary: {
       main: "#039be5"

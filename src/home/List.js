@@ -1,6 +1,5 @@
 import React from "react";
 import { faShoppingBasket, faCheck } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CustomCard from "../common/CustomCard";
 import ListFooter from "./ListFooter";
 import ListItem from "./ListItem";
